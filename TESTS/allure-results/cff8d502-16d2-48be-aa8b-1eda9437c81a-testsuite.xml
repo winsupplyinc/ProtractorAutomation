@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548107051070' stop='1548107094002'>
+    <name>Shipping Manifest Create/Delete Driver-20190121-11:44:52</name>
+    <title>Shipping Manifest Create/Delete Driver-20190121-11:44:52</title>
+    <test-cases>
+        <test-case start='1548107051072' status='failed' stop='1548107088176'>
+            <name>Create Driver</name>
+            <title>Create Driver</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c78d79f1-3235-454b-9eb9-b6276a64faa0-attachment.png' type='image/png' size='76038'/>
+            </attachments>
+            <failure>
+                <message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+                <stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+                    at Timeout._onTimeout (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+                    at ontimeout (timers.js:425:11)
+                    at tryOnTimeout (timers.js:289:5)
+                    at listOnTimeout (timers.js:252:5)
+                    at Timer.processTimers (timers.js:212:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548107088177' status='passed' stop='1548107094000'>
+            <name>Delete Driver</name>
+            <title>Delete Driver</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8306f9b3-444f-4166-a521-f1735b22f924-attachment.png' type='image/png' size='75654'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

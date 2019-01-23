@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548266636563' stop='1548266682718'>
+    <name>Shipping Manifest Create/Delete Truck-20190123-13-03-56</name>
+    <title>Shipping Manifest Create/Delete Truck-20190123-13-03-56</title>
+    <test-cases>
+        <test-case start='1548266636565' status='passed' stop='1548266676996'>
+            <name>Create Truck</name>
+            <title>Create Truck</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='adecefc1-9341-4bfe-8d24-485975219248-attachment.png' type='image/png' size='84402'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548266676997' status='passed' stop='1548266682716'>
+            <name>Delete Truck</name>
+            <title>Delete Truck</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1c1efa48-917f-45e6-842e-77e6d94a0261-attachment.png' type='image/png' size='88817'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

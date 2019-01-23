@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548262398463' stop='1548262418972'>
+    <name>Shipping Manifest Create/Delete Truck-20190123-11-53-18</name>
+    <title>Shipping Manifest Create/Delete Truck-20190123-11-53-18</title>
+    <test-cases>
+        <test-case start='1548262398464' status='failed' stop='1548262418969'>
+            <name>Create Truck</name>
+            <title>Create Truck</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2306e6d4-a4db-4198-9de9-2846e808fdd0-attachment.png' type='image/png' size='39711'/>
+            </attachments>
+            <failure>
+                <message>Expected 'Active' to equal 'Inactive'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\Protractor6\Fork.js:161:1), &lt;anonymous>:26:84)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

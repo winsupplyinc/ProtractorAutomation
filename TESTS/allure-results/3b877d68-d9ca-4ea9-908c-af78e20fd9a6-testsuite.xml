@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547846796985' stop='1547846812174'>
+    <name>Shipping Manifest Automation Test-20190118-16:26:28</name>
+    <title>Shipping Manifest Automation Test-20190118-16:26:28</title>
+    <test-cases>
+        <test-case start='1547846796986' status='passed' stop='1547846812171'>
+            <name>Create Driver</name>
+            <title>Create Driver</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='939378b7-ec0c-4405-9527-b5b83dba9e8c-attachment.png' type='image/png' size='35547'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

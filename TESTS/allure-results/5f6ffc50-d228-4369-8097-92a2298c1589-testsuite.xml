@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547830456151' stop='1547830508610'>
+    <name>Shipping Manifest Automation Test-20190018-11:54:7</name>
+    <title>Shipping Manifest Automation Test-20190018-11:54:7</title>
+    <test-cases>
+        <test-case start='1547830456154' status='passed' stop='1547830476061'>
+            <name>Create Manifest</name>
+            <title>Create Manifest</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='82f3592c-b6d1-4889-92d4-2c534a396a87-attachment.png' type='image/png' size='52037'/>
+            </attachments>
+        </test-case>
+        <test-case start='1547830476063' status='passed' stop='1547830480501'>
+            <name>Create Manifest - Add SO</name>
+            <title>Create Manifest - Add SO</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='728860b3-4d22-40e7-b89a-f4aad54f27f1-attachment.png' type='image/png' size='74044'/>
+            </attachments>
+        </test-case>
+        <test-case start='1547830480501' status='passed' stop='1547830492555'>
+            <name>Create Manifest - Add PO</name>
+            <title>Create Manifest - Add PO</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bd5e5b07-72ce-4b67-a668-d7e3a9197096-attachment.png' type='image/png' size='85144'/>
+            </attachments>
+        </test-case>
+        <test-case start='1547830492556' status='passed' stop='1547830496814'>
+            <name>Create Manifest</name>
+            <title>Create Manifest</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4988f72d-e6a4-4d6f-a1eb-fe536169cb05-attachment.png' type='image/png' size='81283'/>
+            </attachments>
+        </test-case>
+        <test-case start='1547830496814' status='passed' stop='1547830508609'>
+            <name>Delete Manifest</name>
+            <title>Delete Manifest</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d08edc57-96b8-47e8-b5e7-6e8c8caaa7c5-attachment.png' type='image/png' size='75985'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

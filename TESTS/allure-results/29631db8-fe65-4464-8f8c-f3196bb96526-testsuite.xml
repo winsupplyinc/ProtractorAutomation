@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548088931131' stop='1548088981502'>
+    <name>Shipping Manifest Create/Delete Driver-20190121-11:42:02</name>
+    <title>Shipping Manifest Create/Delete Driver-20190121-11:42:02</title>
+    <test-cases>
+        <test-case start='1548088931132' status='failed' stop='1548088963439'>
+            <name>Create Driver</name>
+            <title>Create Driver</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: chrome not reachable
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)</message>
+                <stack-trace>WebDriverError: chrome not reachable
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at doSend.then.response (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: WebDriver.findElements(By(css selector, #driverModal > driver-new > div.mobile-modal-btn-div.action-buttons > div))
+                    at Driver.schedule (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Driver.findElements (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+                    at ptor.waitForAngular.then (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44)
+                    at ManagedPromise.invokeCallback_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as click] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at UserContext.&lt;anonymous> (c:\Users\gebirecki\protractorworkspace\Protractor6\TESTS\Test.js:30:96)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                From: Task: Run it("Create Driver") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+                    at ControlFlow.emit (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+                    at ControlFlow.shutdown_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+                    at shutdownTask_.MicroTask (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (c:\Users\gebirecki\protractorworkspace\Protractor6\TESTS\Test.js:13:2)
+                    at addSpecsToSuite (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (c:\Users\gebirecki\protractorworkspace\Protractor6\TESTS\Test.js:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Module.load (internal/modules/cjs/loader.js:599:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548088963441' status='failed' stop='1548088981498'>
+            <name>Delete Driver</name>
+            <title>Delete Driver</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>WebDriverError: chrome not reachable
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)</message>
+                <stack-trace>WebDriverError: chrome not reachable
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at doSend.then.response (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: WebDriver.takeScreenshot()
+                    at Driver.schedule (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Driver.takeScreenshot (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+                    at run (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+                    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+                    at Jasmine2HTMLReporter.self.specDone (c:\Users\gebirecki\protractorworkspace\Protractor6\node_modules\protractor-jasmine2-html-reporter\index.js:203:21)
+                    at dispatch (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+                    at ReportDispatcher.specDone (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+                    at Spec.specResultCallback [as resultCallback] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1175:18)
+                    at QueueRunner.complete [as onComplete] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:530:12)
+                    at Immediate.&lt;anonymous> (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4231:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548193723964' stop='1548193726008'>
+    <name>Shipping Manifest Create/Delete Driver-20190122-16-48-35</name>
+    <title>Shipping Manifest Create/Delete Driver-20190122-16-48-35</title>
+    <test-cases>
+        <test-case start='1548193723966' status='failed' stop='1548193725979'>
+            <name>Create Driver</name>
+            <title>Create Driver</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>WebDriverError: unknown error: session deleted because of page crash
+                from tab crashed
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)</message>
+                <stack-trace>WebDriverError: unknown error: session deleted because of page crash
+                from tab crashed
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at doSend.then.response (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: WebDriver.navigate().to(http://webservicedev.winwholesale.com/shipping-manifest-manager-release/#/driver-list)
+                    at Driver.schedule (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Navigation.to (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1133:25)
+                    at Driver.get (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:988:28)
+                    at ProtractorBrowser.get (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\browser.js:655:32)
+                    at Object.&lt;anonymous> (c:\Users\gebirecki\protractorworkspace\Protractor6\TESTS\Test.js:2:9)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Module.load (internal/modules/cjs/loader.js:599:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+                    at Function.Module._load (internal/modules/cjs/loader.js:530:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548193725981' status='failed' stop='1548193726005'>
+            <name>Delete Driver</name>
+            <title>Delete Driver</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>WebDriverError: invalid session id
+                  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)</message>
+                <stack-trace>WebDriverError: invalid session id
+                  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at doSend.then.response (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: WebDriver.takeScreenshot()
+                    at Driver.schedule (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Driver.takeScreenshot (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+                    at run (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+                    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+                    at Jasmine2HTMLReporter.self.specDone (c:\Users\gebirecki\protractorworkspace\Protractor6\node_modules\protractor-jasmine2-html-reporter\index.js:203:21)
+                    at dispatch (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+                    at ReportDispatcher.specDone (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+                    at Spec.specResultCallback [as resultCallback] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1175:18)
+                    at QueueRunner.complete [as onComplete] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:530:12)
+                    at Immediate.&lt;anonymous> (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4231:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

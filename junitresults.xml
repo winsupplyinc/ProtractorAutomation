@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Shipping Manifest Create/Delete Driver-20190123-10-08-10" timestamp="2019-01-23T10:08:10" hostname="localhost" time="44.363" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Shipping Manifest Create/Delete Driver-20190123-10-08-10" name="Create Driver" time="38.649" />
+  <testcase classname="Shipping Manifest Create/Delete Driver-20190123-10-08-10" name="Delete Driver" time="5.701" />
+ </testsuite>
+</testsuites>

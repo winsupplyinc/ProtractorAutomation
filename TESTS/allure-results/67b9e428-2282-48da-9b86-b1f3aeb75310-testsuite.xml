@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548084655010' stop='1548084665565'>
+    <name>Shipping Manifest Create/Delete Driver-20190121-10:27:05</name>
+    <title>Shipping Manifest Create/Delete Driver-20190121-10:27:05</title>
+    <test-cases>
+        <test-case start='1548084655012' status='passed' stop='1548084664383'>
+            <name>Create Driver</name>
+            <title>Create Driver</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b68e566f-c634-41e7-8545-0bd1247fef7e-attachment.png' type='image/png' size='70037'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548084664385' status='passed' stop='1548084665563'>
+            <name>Find Driver</name>
+            <title>Find Driver</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f8865014-b9f4-48d5-95d0-fe06ab8da76c-attachment.png' type='image/png' size='70037'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
