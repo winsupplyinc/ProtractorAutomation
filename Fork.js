@@ -87,13 +87,11 @@ for (var i = 0; i< tst.length; i++){
 		cmdList.push(String("browser.driver.manage().window().maximize();\n"));
 		cmdList.push(String("describe('" + testName + "-" + date + "', function(){\n"));
 		cmdList.push(String("\tvar until = protractor.ExpectedConditions;\n"));
-		cmdList.push(String("\t\tbrowser.wait(until.elementToBeClickable(element(by.css('" + ele[i] + "'))), 10000);\n"));
-		cmdList.push(String("\t\t\twhile (!(element(by.css('" + ele[i] + "')).isPresent().then(function() {\n"));
-		cmdList.push(String("\t\t\tbrowser.sleep(1000);\n"));
-		cmdList.push(String("\t\t}))) {\n"));
-		cmdList.push(String("\t\tconsole.log('waiting for " + ele[i] +"');\n"));
+		cmdList.push(String("\tbrowser.wait(until.elementToBeClickable(element(by.css('" + ele[i] + "'))), 10000);\n"));
+		cmdList.push(String("\t\twhile (!(element(by.css('" + ele[i] + "')).isPresent().then(function() {\n"));
 		cmdList.push(String("\t\tbrowser.sleep(1000);\n"));
-		cmdList.push(String("};\n"));
+		cmdList.push(String("\t})));\n"));
+		cmdList.push(String("\n"));
 	}
 	
 	if(currentTest != tst[i]){
@@ -106,19 +104,25 @@ for (var i = 0; i< tst.length; i++){
 	}
 	if(cmd[i] == 'sendKeys'){
 		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).click().then(function(){\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t});\n"));
-		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).sendKeys('" + val[i] + "').then(function(){\n\t\t\tbrowser.actions().sendKeys(protractor.Key.ENTER).perform();\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t});\n"));
+		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).sendKeys('" + val[i] + "').then(function(){\n\t\t\tbrowser.actions().sendKeys(protractor.Key.TAB).perform();\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t});\n"));
 	}
 	if(cmd[i] == 'sendCmdKeys'){
 		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).click().then(function(){\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t});\n"));
 		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).sendKeys(" + val[i] + ").then(function(){\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t});\n"));
 	}
+	
+	if(cmd[i] == 'sendPGDN'){
+		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).click().then(function(){\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t});\n"));
+		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).sendKeys('" + val[i] + "').then(function(){\n\t\t\tbrowser.actions().sendKeys(protractor.Key.PAGE_DOWN).perform();\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t});\n"));
+	}
+	
 	if(cmd[i] == 'sendKeysEnter'){
 		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).click().then(function(){\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t});\n"));
 		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).sendKeys('" + val[i] + "').then(function(){\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t\tbrowser.actions().sendKeys(protractor.Key.ENTER).perform();\n\t\t\tbrowser.sleep(1000);\n\t\t});\n"));
 	}
 	if(cmd[i] == 'clearSendKeys'){
 		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).click().then(function(){\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t});\n"));
-		cmdList.push(String("\t\tVelement(by." + loc[i] + "('" + ele[i] + "')).clear();\n"));
+		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).clear();\n"));
 		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).sendKeys(String('" + val[i] + "')).then(function(){\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t});\n"));
 	}
 	if(cmd[i] == 'verify'){
@@ -131,20 +135,30 @@ for (var i = 0; i< tst.length; i++){
 		cmdList.push(String("\t\texpect(element(by." + loc[i] + "('" + ele[i] + "')).getAttribute('value')).toEqual(String('" + val[i] + "'));\n"));
 	}
 	if(cmd[i] == 'verifySelect'){
-		cmdList.push(String("\t\texpect(element(by." + loc[i] + "('" + ele[i] + "')).getAttribute('ng-reflect-model')).toEqual(String('" + val[i] + "'));\n"));
+		//cmdList.push(String("\t\texpect(element(by." + loc[i] + "('" + ele[i] + "')).getAttribute('ng-reflect-model')).toEqual(String('" + val[i] + "'));\n"));
+		//cmdList.push(String("\t\texpect(element(by.selectedOption('" + ele[i] + "')).getText()).toEqual(String('" + val[i] + "'));\n"));
+		//cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).getAttribute('value').then(function(selectValue){\n\t\t\texpect(element(by.css('select option[value=' + selectValue + ']')).getText()).toEqual('" + val[i] + "');\n\t\t});\n"))
+		//cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).getAttribute('value').then(function(selectValue){\n\t\t\texpect(element(by.css('select option[value=' + selectValue + ']')).getText()).toEqual('" + val[i] + "');\n\t\t});\n"))
+		//cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).getAttribute('value').then(function(value){\n\t\t\tconsole.log('The value is ' + value);\n\t\t\texpect(element(by.css('select option[value=' + selectValue + ']')).getText()).toEqual('" + val[i] + "');\n\t\t});\n"))
+		//cmdList.push(String("expect(element(by." + loc[i] + "('" + ele[i] + "')).getAttribute('value')).toEqual('" + val[i] + "');\n"));
+		
+		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).element(by.css('option:checked')).getText().then(function(text){expect(text.trim()).toEqual('" + val[i] + "')});\n"));
+		
 	}
 	if(cmd[i] == 'verifyIsPresent'){
 		cmdList.push(String("\t\texpect(element(by." + loc[i] + "('" + ele[i] + "')).isPresent()).toBe(true);\n"));
 	}
 	if(cmd[i] == 'selectDropDown'){
 		//cmdList.push(String("\t\telement.all(by." + loc[i] + "('" + ele[i] + "')).each(function(element, index){element.getText().then(function(text){console.log(index + ' - ' + text);if(text.trim() == '" + val[i] + "'){console.log('Click');element.click();browser.sleep(" + (1000 + del[i]) + ");}})});\n"));
-		cmdList.push(String("\t\telement.all(by." + loc[i] + "('" + ele[i] + "')).each(function(element, index){\n\t\t\telement.getAttribute('value').then(function(text){\n\t\t\t\tif(text.trim() == '" + val[i] + "'){element.click();\n\t\t\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t\t\t}\n\t\t\t})\n\t\t});\n"));
+		cmdList.push(String("\t\telement.all(by." + loc[i] + "('" + ele[i] + "')).each(function(element, index){element.getText().then(function(text){console.log(index + ' - ' + text);if(text.trim() == '" + val[i] + "'){element.click();browser.actions().sendKeys(protractor.Key.TAB).perform();browser.sleep(" + (1000 + del[i]) + ");}})});\n"));		
+		//cmdList.push(String("\t\telement.all(by." + loc[i] + "('" + ele[i] + "')).each(function(element, index){\n\t\t\telement.getAttribute('value').then(function(text){\n\t\t\t\tconsole.log(text.trim());\n\t\t\t\tif(text.trim() == '" + val[i] + "'){element.click();\n\t\t\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t\t\t}\n\t\t\t})\n\t\t});\n"));
+		//cmdList.push(String("\t\telement.all(by." + loc[i] + "('" + ele[i] + "')).each(function(element, index){\n\t\t\telement.getInnerHTML().then(function(text){\n\t\t\t\tconsole.log(text);\n\t\t\t\tif(text.trim() == '" + val[i] + "'){element.click();\n\t\t\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t\t\t}\n\t\t\t})\n\t\t});\n"));
 	}
 	if(i+1 == tst.length){
-		cmdList.push(String("\t});\n"));
+		cmdList.push(String("});\n"));
 	}
 	if(tst[i+1] != currentTest){
-		cmdList.push(String("});\n"));
+		cmdList.push(String("\t});\n"));
 		
 	}
 	

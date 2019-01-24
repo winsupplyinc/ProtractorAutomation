@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548343001703' stop='1548343054131'>
+    <name>Shipping Manifest Automation Test-20190124-10-16-41</name>
+    <title>Shipping Manifest Automation Test-20190124-10-16-41</title>
+    <test-cases>
+        <test-case start='1548343001704' status='failed' stop='1548343023269'>
+            <name>Create Manifest</name>
+            <title>Create Manifest</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1699ad9e-90a6-4a1d-906e-9564c48a65fc-attachment.png' type='image/png' size='52352'/>
+            </attachments>
+            <failure>
+                <message>Expected '[object Object]' to equal 'Nissan'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:162:1), &lt;anonymous>:32:89)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548343023271' status='passed' stop='1548343027812'>
+            <name>Create Manifest - Add SO</name>
+            <title>Create Manifest - Add SO</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a1284099-3f56-454f-ace8-2975820ccdbd-attachment.png' type='image/png' size='74438'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548343027813' status='passed' stop='1548343037898'>
+            <name>Create Manifest - Add PO</name>
+            <title>Create Manifest - Add PO</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='562ac4b0-d54f-4cfd-9aa5-b2f93e8202cf-attachment.png' type='image/png' size='85281'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548343037898' status='passed' stop='1548343042268'>
+            <name>Create Manifest</name>
+            <title>Create Manifest</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='975ca393-7241-47d9-8fea-871004e677c5-attachment.png' type='image/png' size='87324'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548343042268' status='passed' stop='1548343054129'>
+            <name>Delete Manifest</name>
+            <title>Delete Manifest</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='af23148b-7958-40fa-80c5-3fa448ddf92f-attachment.png' type='image/png' size='82626'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

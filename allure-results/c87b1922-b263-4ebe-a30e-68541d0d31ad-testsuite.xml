@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548346922847' stop='1548346978995'>
+    <name>Shipping Manifest Automation Test-20190124-11-22-02</name>
+    <title>Shipping Manifest Automation Test-20190124-11-22-02</title>
+    <test-cases>
+        <test-case start='1548346922849' status='failed' stop='1548346948074'>
+            <name>Create Manifest</name>
+            <title>Create Manifest</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='02e65232-b5bd-450f-8729-d81df55f6ce9-attachment.png' type='image/png' size='52352'/>
+            </attachments>
+            <failure>
+                <message>Expected 'All' to equal 'Nissan'.</message>
+                <stack-trace>Error: Failed expectation
+                    at eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:164:1), &lt;anonymous>:34:82)
+                    at elementArrayFinder_.then (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:804:32)
+                    at ManagedPromise.invokeCallback_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548346948079' status='passed' stop='1548346952738'>
+            <name>Create Manifest - Add SO</name>
+            <title>Create Manifest - Add SO</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a33e6adc-9a08-4b1d-b922-291cef251a32-attachment.png' type='image/png' size='74438'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548346952739' status='passed' stop='1548346962850'>
+            <name>Create Manifest - Add PO</name>
+            <title>Create Manifest - Add PO</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a512009b-a8f0-42db-b194-413d40f5f2aa-attachment.png' type='image/png' size='85281'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548346962850' status='passed' stop='1548346967138'>
+            <name>Create Manifest</name>
+            <title>Create Manifest</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='03f333e7-711a-4ca7-9e19-afd1c5372112-attachment.png' type='image/png' size='87324'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548346967139' status='passed' stop='1548346978994'>
+            <name>Delete Manifest</name>
+            <title>Delete Manifest</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='056ebb48-5d7b-4edb-b544-dc41d31a6ed2-attachment.png' type='image/png' size='82626'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

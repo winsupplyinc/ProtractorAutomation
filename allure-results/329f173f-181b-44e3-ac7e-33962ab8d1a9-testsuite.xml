@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548361424417' stop='1548361463495'>
+    <name>Shipping Manifest Create/Delete Driver-20190124-15-23-44</name>
+    <title>Shipping Manifest Create/Delete Driver-20190124-15-23-44</title>
+    <test-cases>
+        <test-case start='1548361424419' status='failed' stop='1548361457461'>
+            <name>Create Driver</name>
+            <title>Create Driver</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ba0a6455-491c-44ea-ad47-2e213436028a-attachment.png' type='image/png' size='76038'/>
+            </attachments>
+            <failure>
+                <message>Expected '                                            Secondary
+                                                        ' to equal 'Secondary'.</message>
+                <stack-trace>Error: Failed expectation
+                    at eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:171:1), &lt;anonymous>:46:111)
+                    at elementArrayFinder_.then (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:804:32)
+                    at ManagedPromise.invokeCallback_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548361457462' status='passed' stop='1548361463494'>
+            <name>Delete Driver</name>
+            <title>Delete Driver</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='95ba3f87-8f5c-431e-9cb8-971ae75424d2-attachment.png' type='image/png' size='75654'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

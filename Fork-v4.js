@@ -1,177 +1,105 @@
-var xlsx = require('xlsx');
-//var pro = require('protractor');
-//var jas = require('jasmine');
-var List = require("collections/list");
-//var obj = require("./JSObjectDemo.js");
-//var using = require('jasmine-data-provider');
-//var d = require('./CalcDatadriver.js');
-//var e = d.datadrive;
-//var address_of_cell = 'A1';
-//var workBook = xlsx.readFile(`${__dirname}/ProtractorTest.xlsx`);
-var workBook = xlsx.readFile(`${__dirname}/CreateManifest.xlsx`);
-var first_sheet_name = workBook.SheetNames[0];
-var workSheet = workBook.Sheets[first_sheet_name];
-var row = '3'; //This is the row in the spreadsheet where the commands will begin.  Above this is the URL and the column headers
-//var space = ' ';
-var nodemailer = require("nodemailer");
-
-
-//These are the columns where the instructions are located.  
-var colTestName = workSheet['A' + row];
-var colCommand = workSheet['B' + row];
-var colLocateBy = workSheet['C' + row];
-var colElement = workSheet['D' + row];
-var colValue = workSheet['E' + row];
-var colDelay = workSheet['F' + row]
-
-//The data from the spreadsheet will be stored in these list objects
-var testName = new List;
-var command = new List;
-var locateBy = new List;
-var elements = new List;
-var values = new List;
-var cmdList = new List;
-var delay = new List;
-var url = workSheet['A' + '1'].v;
-
-//As long as Column A has data continue to read the values line by line.
-while (colTestName != undefined) {
-	colTestName = workSheet['A' + row];
-	colCommand = workSheet['B' + row];
-	colLocateBy = workSheet['C' + row];
-	colElement = workSheet['D' + row];
-	colValue = workSheet['E' + row];
-	colDelay = workSheet['F' + row];
-	if (colTestName != undefined) {
-		// console.log(col+row + '=' + desired_cell.v);
-		testName.add(colTestName.v);
-		command.add(colCommand ? colCommand.v : undefined)
-		locateBy.add(colLocateBy ? colLocateBy.v : undefined)
-		elements.add(colElement ? colElement.v : undefined)
-		values.add(colValue ? colValue.v : undefined)
-		delay.add(colDelay ? colDelay.v : 0)
-	}
-	row++;
-}
-
-//Copy the Lists into variable Array's for ease of further processing.
-var tst = testName.toArray();
-var cmd = command.toArray();
-var loc = locateBy.toArray();
-var ele = elements.toArray();
-var val = values.toArray();
-var del = delay.toArray();
-
-//Variable 'currentTest' will determine when the value in Column A changes and will cause a new 'it' block to begin.
-//This causes the generated report to begin a new section.
-var currentTest = 'none';
-						// browser.waitForAngularEnabled(false);
 browser.ignoreSynchronization = true;
-						// browser.get('http://juliemr.github.io/protractor-demo/');//Supercalculator website
-						//browser.get('http://webservicedev.winwholesale.com/shipping-manifest-manager/#/manifest-dashboard');
-						// var until = protractor.ExpectedConditions;
-						// browser.wait(function(){return
-						// element(by.css('#containerFluid >
-						// manifest-dashboard > div >
-						// div.page-title-wrapper.visible-tablet > help-doc >
-						// a')).isPresent()});
+browser.get('http://webservicedev.winwholesale.com/shipping-manifest-manager-release/#/list');
+browser.driver.manage().window().maximize();
+describe('Shipping Manifest Automation Test-20190123-16-34-13', function(){
+	var until = protractor.ExpectedConditions;
+	browser.wait(until.elementToBeClickable(element(by.css('button.new-manifest-btn'))), 10000);
+		while (!(element(by.css('button.new-manifest-btn')).isPresent().then(function() {
+		browser.sleep(1000);
+	})))
 
-//Begin processing the commands and data from the spreadsheet into lines in an output file.
-for (var i = 0; i< tst.length; i++){
-	//This section is the output file header.
-	if(i==0){
-		cmdList.add(String("browser.ignoreSynchronization = true;\n"));
-		cmdList.add(String("browser.get('" + url + "');\n"));
-		cmdList.add(String("browser.driver.manage().window().maximize();\n"));
-		cmdList.add(String("describe('Shipping Manifest Automation Test', function(){\n"));
-		
-		cmdList.add(String("\tvar until = protractor.ExpectedConditions;\n"));
-		cmdList.add(String("\t\tbrowser.wait(until.elementToBeClickable(element(by.css('" + ele[i] + "'))), 10000);\n"));
-		cmdList.add(String("\t\t\twhile (!(element(by.css('" + ele[i] + "')).isPresent().then(function() {\n"));
-		cmdList.add(String("\t\t\tbrowser.sleep(1000);\n"));
-		cmdList.add(String("\t\t}))) {\n"));
-		cmdList.add(String("\t\tconsole.log('waiting for " + ele[i] +"');\n"));
-		cmdList.add(String("\t\tbrowser.sleep(1000);\n"));
-		cmdList.add(String("};\n"));
-	}
-	
-	if(currentTest != tst[i]){
-		currentTest = tst[i];
-		cmdList.add(String("\tit('" + tst[i] + "', function(){\n"));
-	}
-	
-	if(cmd[i] == 'click'){
-		cmdList.add(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).click().then(function(){browser.sleep(" + (1000 + del[i]) + ");});\n"));
-	}
-	if(cmd[i] == 'sendKeys'){
-		cmdList.add(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).click().then(function(){browser.sleep(" + (1000 + del[i]) + ");});\n"));
-		cmdList.add(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).sendKeys('" + val[i] + "').then(function(){browser.sleep(" + (1000 + del[i]) + ");});\n"));
-	}
-	if(cmd[i] == 'sendCmdKeys'){
-		cmdList.add(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).click().then(function(){browser.sleep(" + (1000 + del[i]) + ");});\n"));
-		cmdList.add(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).sendKeys(" + val[i] + ").then(function(){browser.sleep(" + (1000 + del[i]) + ");});\n"));
-	}
-	if(cmd[i] == 'sendKeysEnter'){
-		cmdList.add(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).click().then(function(){browser.sleep(" + (1000 + del[i]) + ");});\n"));
-		cmdList.add(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).sendKeys('" + val[i] + "').then(function(){browser.sleep(" + (1000 + del[i]) + ");browser.actions().sendKeys(protractor.Key.ENTER).perform();browser.sleep(1000);});\n"));
-		
-		
-	}
-	if(cmd[i] == 'clearSendKeys'){
-		cmdList.add(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).click().then(function(){browser.sleep(" + (1000 + del[i]) + ");});\n"));
-		cmdList.add(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).clear();\n"));
-		cmdList.add(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).sendKeys(String('" + val[i] + "')).then(function(){browser.sleep(" + (1000 + del[i]) + ");});\n"));
-	}
-	if(cmd[i] == 'verify'){
-		cmdList.add(String("\t\texpect(element(by." + loc[i] + "('" + ele[i] + "')).getText()).toEqual(String('" + val[i] + "'));\n"));
-	}
-	if(cmd[i] == 'verifyByValue'){
-		cmdList.add(String("\t\texpect(element(by." + loc[i] + "('" + ele[i] + "')).getAttribute('value')).toEqual(String('" + val[i] + "'));\n"));
-	}
-	if(cmd[i] == 'verifyIsPresent'){
-		cmdList.add(String("\t\texpect(element(by." + loc[i] + "('" + ele[i] + "')).isPresent()).toBe(true);\n"));
-	}
-	if(cmd[i] == 'selectDropDown'){
-		cmdList.add(String("\t\telement.all(by." + loc[i] + "('" + ele[i] + "')).each(function(element, index){element.getText().then(function(text){if(text.trim() == '" + val[i] + "'){element.click();browser.sleep(" + (1000 + del[i]) + ");}})});\n"));
-	}
-	if(i+1 == tst.length){
-		cmdList.add(String("\t});\n"));
-	}
-	if(tst[i+1] != currentTest){
-		cmdList.add(String("\t});\n"));
-		
-	}
-	
-}
-var cmdArr = cmdList.toArray();
-var textField = "";
-for (var j = 0; j < cmdArr.length; j++){
-	textField = textField + cmdArr[j];
-}
-
-var fs = require('fs');
-fs.writeFile("./TESTS/Test.js", textField, function(err) {
-    if(err) {
-        return console.log(err);
-    }
-
-    console.log("The file was saved!");
-}); 
-//var filename = 'C:/Users/gebire~1/PROTRA~1/Pr099E~1/TESTS/Protractorbat.bat';
-//var cp = require('child_process');
-//cp.execFile(filename);
-const spawn = require('child_process').exec('cmd.exe', ['/c', "C:\\Users\\gebirecki\\protractorworkspace\\Protractor4\\TESTS\\Protractorbat.bat"]);
-//const bat = spawn('cmd.exe', ['/c', "C:\Users\gebirecki\protractorworkspace\Protractor4\TESTS\Protractorbat.bat"]);
-
-//var exec = require('child_process').exec, child;
-//function child(){
-//	exec("C:/Users/gebire~1/PROTRA~1/Pr099E~1/TESTS/Protractorbat.bat", function (error, stdout, stderr) {
-//		console.log('stdout: ' + stdout);
-//		console.log('stderr: ' + stderr);
-//		if (error !== null) {
-//			console.log('exec error: ' + error);
-//		}
-//	});
-//}
-//child();
-
+	it('Create Manifest', function(){
+		element(by.css('button.new-manifest-btn')).click().then(function(){
+			browser.sleep(4000);
+		});
+		expect(element(by.css('input#newManifestDeliveryDate')).getAttribute('value')).toEqual(String('01/30/2019'));
+		element(by.css('input#newManifestStartTime')).click().then(function(){
+			browser.sleep(1000);
+		});
+		Velement(by.css('input#newManifestStartTime')).clear();
+		element(by.css('input#newManifestStartTime')).sendKeys(String('12:00 PM')).then(function(){
+			browser.sleep(1000);
+		});
+		expect(element(by.css('input#newManifestStartTime')).getAttribute('value')).toEqual(String('12:00 PM'));
+		element(by.css('#truck[name="truck"]')).click().then(function(){
+			browser.sleep(1000);
+		});
+		element.all(by.css('#truck > option')).each(function(element, index){
+			element.getAttribute('value').then(function(text){
+				if(text.trim() == 'Nissan'){element.click();
+					browser.sleep(1000);
+				}
+			})
+		});
+		element(by.css('textarea#notes')).click().then(function(){
+			browser.sleep(1000);
+		});
+		element(by.css('textarea#notes')).sendKeys('Drop it off').then(function(){
+			browser.actions().sendKeys(protractor.Key.ENTER).perform();
+			browser.sleep(1000);
+		});
+		expect(element(by.css('textarea#notes')).getAttribute('value')).toEqual(String('Drop it off'));
+	});
+	it('Create Manifest - Add SO', function(){
+		element(by.css('input[ng-reflect-name="keyedOrderNum"]')).click().then(function(){
+			browser.sleep(1000);
+		});
+		element(by.css('input[ng-reflect-name="keyedOrderNum"]')).sendKeys('406087-01').then(function(){
+			browser.sleep(1000);
+			browser.actions().sendKeys(protractor.Key.ENTER).perform();
+			browser.sleep(1000);
+		});
+		expect(element(by.css('#collapseStop0 > div > div > div > div > span')).getText()).toEqual(String('406087-01'));
+		expect(element(by.css('#collapseStop0 > div > div > div > div > p-messages > div > ul > li > span.ui-messages-summary')).getText()).toEqual(String('Order 406087-01 successfully added to manifest'));
+	});
+	it('Create Manifest - Add PO', function(){
+		element(by.css('#newManifestModal > new-manifest > div.action-buttons > div > div > div:nth-child(1) > button.btn.btn-md.delete-manifest-btn.dark-ui-secondary-btn.add-po-btn.left > span')).click().then(function(){
+			browser.sleep(4000);
+		});
+		element(by.css('#newManifestModal > new-manifest > div.modal-dialog > div > div > div.add-po-content.container.footerMargin > div > div.row > form > div.form-group.col-lg-8.col-md-8.col-sm-8.col-xs-12 > input')).click().then(function(){
+			browser.sleep(1000);
+		});
+		element(by.css('#newManifestModal > new-manifest > div.modal-dialog > div > div > div.add-po-content.container.footerMargin > div > div.row > form > div.form-group.col-lg-8.col-md-8.col-sm-8.col-xs-12 > input')).sendKeys('059127').then(function(){
+			browser.actions().sendKeys(protractor.Key.ENTER).perform();
+			browser.sleep(1000);
+		});
+		element(by.css('input[placeholder="Order/Vendor Number, Vendor Name, Address"]')).click().then(function(){
+			browser.sleep(1000);
+		});
+		element(by.css('input[placeholder="Order/Vendor Number, Vendor Name, Address"]')).sendKeys(undefined).then(function(){
+			browser.sleep(1000);
+		});
+		element(by.css('#newManifestModal > new-manifest > div.modal-dialog > div > div > div.add-po-content.container.footerMargin > div > div.po-content > p-datatable > div > div.ui-datatable-tablewrapper > table > tbody > tr > td:nth-child(1)')).click().then(function(){
+			browser.sleep(1000);
+		});
+		element(by.css('#newManifestModal > new-manifest > div.modal-dialog > div > div > div.add-po-content.container.footerMargin > div > div:nth-child(5) > button.btn.btn-md.btn-primary.background-blue.button-margin.right')).click().then(function(){
+			browser.sleep(1000);
+		});
+		expect(element(by.css('#collapseStop1 > div > div > div > div > span')).getText()).toEqual(String('059127'));
+		expect(element(by.css('#collapseStop1 > div > div > div > div > p-messages > div > ul > li > span.ui-messages-summary')).getText()).toEqual(String('Order 059127 successfully added to manifest'));
+	});
+	it('Create Manifest', function(){
+		element(by.css('#newManifestModal > new-manifest > div.action-buttons > div > div > div.right > button > span')).click().then(function(){
+			browser.sleep(3000);
+		});
+		expect(element(by.css('body > my-app > p-growl > div > div > div > div.ui-growl-message > span')).isPresent()).toBe(true);
+	});
+	it('Delete Manifest', function(){
+		element(by.css('#containerFluid > list > div.win-body > div.tablerow.visible-lg.visible-md > p-datatable > div > div.ui-datatable-tablewrapper > table > thead > tr > th:nth-child(1) > span.ui-sortable-column-icon.fa.fa-fw.fa-sort')).click().then(function(){
+			browser.sleep(3000);
+		});
+		element(by.css('#containerFluid > list > div.win-body > div.tablerow.visible-lg.visible-md > p-datatable > div > div.ui-datatable-tablewrapper > table > thead > tr > th.ui-state-default.ui-unselectable-text.ui-sortable-column.ui-state-active > span.ui-sortable-column-icon.fa.fa-fw.fa-sort.fa-sort-asc')).click().then(function(){
+			browser.sleep(3000);
+		});
+		element(by.css('#containerFluid > list > div.win-body > div.tablerow.visible-lg.visible-md > p-datatable > div > div.ui-datatable-tablewrapper > table > tbody > tr:nth-child(1) > td:nth-child(1) > span.ui-cell-data > a')).click().then(function(){
+			browser.sleep(1000);
+		});
+		element(by.css('#newManifestModal > new-manifest > div.action-buttons > div > div > div:nth-child(3) > button > span')).click().then(function(){
+			browser.sleep(1000);
+		});
+		element(by.css('#deleteManifestModal > div > div > div > div > div:nth-child(4) > button.btn.win-confirmation-btn-blue.background-blue')).click().then(function(){
+			browser.sleep(2000);
+		});
+		expect(element(by.css('body > my-app > p-growl > div > div > div > div.ui-growl-message > span')).isPresent()).toBe(true);
+});
+	});
