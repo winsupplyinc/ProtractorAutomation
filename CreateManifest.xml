@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
- <testsuite name="Shipping Manifest Automation Test-20190124-15-30-40" timestamp="2019-01-24T15:30:41" hostname="localhost" time="58.459" errors="0" tests="5" skipped="0" disabled="0" failures="0">
-  <testcase classname="Shipping Manifest Automation Test-20190124-15-30-40" name="Create Manifest" time="27.537" />
-  <testcase classname="Shipping Manifest Automation Test-20190124-15-30-40" name="Create Manifest - Add SO" time="4.572" />
-  <testcase classname="Shipping Manifest Automation Test-20190124-15-30-40" name="Create Manifest - Add PO" time="10.092" />
-  <testcase classname="Shipping Manifest Automation Test-20190124-15-30-40" name="Create Manifest" time="4.296" />
-  <testcase classname="Shipping Manifest Automation Test-20190124-15-30-40" name="Delete Manifest" time="11.948" />
+ <testsuite name="Shipping Manifest Automation Test-20190125-14-14-48" timestamp="2019-01-25T14:14:48" hostname="localhost" time="60.327" errors="0" tests="5" skipped="0" disabled="0" failures="0">
+  <testcase classname="Shipping Manifest Automation Test-20190125-14-14-48" name="Create Manifest" time="29.252" />
+  <testcase classname="Shipping Manifest Automation Test-20190125-14-14-48" name="Create Manifest - Add SO" time="3.94" />
+  <testcase classname="Shipping Manifest Automation Test-20190125-14-14-48" name="Create Manifest - Add PO" time="10.193" />
+  <testcase classname="Shipping Manifest Automation Test-20190125-14-14-48" name="Create Manifest" time="4.512" />
+  <testcase classname="Shipping Manifest Automation Test-20190125-14-14-48" name="Delete Manifest" time="12.416" />
  </testsuite>
 </testsuites>

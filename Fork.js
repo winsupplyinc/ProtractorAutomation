@@ -118,7 +118,7 @@ for (var i = 0; i< tst.length; i++){
 	
 	if(cmd[i] == 'sendKeysEnter'){
 		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).click().then(function(){\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t});\n"));
-		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).sendKeys('" + val[i] + "').then(function(){\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t\tbrowser.actions().sendKeys(protractor.Key.ENTER).perform();\n\t\t\tbrowser.sleep(1000);\n\t\t});\n"));
+		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).sendKeys('" + val[i] + "').then(function(){\n\t\t\tbrowser.sleep(200);\n\t\t\tbrowser.actions().sendKeys(protractor.Key.ENTER).perform();\n\t\t\tbrowser.sleep(" + (1000 +del[i]) + ");\n\t\t});\n"));
 	}
 	if(cmd[i] == 'clearSendKeys'){
 		cmdList.push(String("\t\telement(by." + loc[i] + "('" + ele[i] + "')).click().then(function(){\n\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t});\n"));
@@ -133,6 +133,9 @@ for (var i = 0; i< tst.length; i++){
 	}
 	if(cmd[i] == 'verifyInput'){
 		cmdList.push(String("\t\texpect(element(by." + loc[i] + "('" + ele[i] + "')).getAttribute('value')).toEqual(String('" + val[i] + "'));\n"));
+	}
+	if(cmd[i] == 'verifyContains'){
+		cmdList.push(String("\t\texpect(element(by." + loc[i] + "('" + ele[i] + "')).getText()).toContain('" + val[i] + "');\n"));
 	}
 	if(cmd[i] == 'verifySelect'){
 		//cmdList.push(String("\t\texpect(element(by." + loc[i] + "('" + ele[i] + "')).getAttribute('ng-reflect-model')).toEqual(String('" + val[i] + "'));\n"));
@@ -150,7 +153,7 @@ for (var i = 0; i< tst.length; i++){
 	}
 	if(cmd[i] == 'selectDropDown'){
 		//cmdList.push(String("\t\telement.all(by." + loc[i] + "('" + ele[i] + "')).each(function(element, index){element.getText().then(function(text){console.log(index + ' - ' + text);if(text.trim() == '" + val[i] + "'){console.log('Click');element.click();browser.sleep(" + (1000 + del[i]) + ");}})});\n"));
-		cmdList.push(String("\t\telement.all(by." + loc[i] + "('" + ele[i] + "')).each(function(element, index){element.getText().then(function(text){console.log(index + ' - ' + text);if(text.trim() == '" + val[i] + "'){element.click();browser.actions().sendKeys(protractor.Key.TAB).perform();browser.sleep(" + (1000 + del[i]) + ");}})});\n"));		
+		cmdList.push(String("\t\telement.all(by." + loc[i] + "('" + ele[i] + "')).each(function(element, index){\n\t\t\telement.getText().then(function(text){\n\t\t\t\tconsole.log(index + ' - ' + text);\n\t\t\t\tif(text.trim() == '" + val[i] + "'){\n\t\t\t\t\telement.click();\n\t\t\t\t\tbrowser.actions().sendKeys(protractor.Key.TAB).perform();\n\t\t\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t\t\t}})});\n"));		
 		//cmdList.push(String("\t\telement.all(by." + loc[i] + "('" + ele[i] + "')).each(function(element, index){\n\t\t\telement.getAttribute('value').then(function(text){\n\t\t\t\tconsole.log(text.trim());\n\t\t\t\tif(text.trim() == '" + val[i] + "'){element.click();\n\t\t\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t\t\t}\n\t\t\t})\n\t\t});\n"));
 		//cmdList.push(String("\t\telement.all(by." + loc[i] + "('" + ele[i] + "')).each(function(element, index){\n\t\t\telement.getInnerHTML().then(function(text){\n\t\t\t\tconsole.log(text);\n\t\t\t\tif(text.trim() == '" + val[i] + "'){element.click();\n\t\t\t\t\tbrowser.sleep(" + (1000 + del[i]) + ");\n\t\t\t\t}\n\t\t\t})\n\t\t});\n"));
 	}

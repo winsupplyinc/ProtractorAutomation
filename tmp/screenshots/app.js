@@ -10688,6 +10688,1664 @@ app.controller('ScreenshotReportController', function ($scope, $http) {
         "screenShotFile": "004b00ec-0083-0013-008d-0040001300b8.png",
         "timestamp": 1548361888311,
         "duration": 11155
+    },
+    {
+        "description": "Create Driver|Shipping Manifest Create/Delete Driver-20190125-13-03-41",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 7772,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548439425423,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00a900c4-0044-00d3-0086-009800aa005b.png",
+        "timestamp": 1548439421964,
+        "duration": 34595
+    },
+    {
+        "description": "Delete Driver|Shipping Manifest Create/Delete Driver-20190125-13-03-41",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 7772,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "ng:///DriverModule/DriverNewComponent.ngfactory.js 1159:11 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckRenderNodeFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15690)\n    at Object.eval [as updateRenderer] (ng:///DriverModule/DriverNewComponent.ngfactory.js:1189:5)\n    at Object.debugUpdateRenderer [as updateRenderer] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15960)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4841)",
+                "timestamp": 1548439459101,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///DriverModule/DriverNewComponent.ngfactory.js 1159:11 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548439459103,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00f300df-0028-00cd-0026-00ab009200ac.png",
+        "timestamp": 1548439457469,
+        "duration": 5237
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-08-46",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 3332,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548439730319,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548439731689,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548439731690,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00780043-00bc-0067-0042-00c2008d004f.png",
+        "timestamp": 1548439726800,
+        "duration": 28715
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-13-08-46",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 3332,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "005d00fe-00a0-0068-00b9-002e00b70056.png",
+        "timestamp": 1548439756361,
+        "duration": 3803
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-13-08-46",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 3332,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00b600f9-00c5-0041-00c9-002d00340016.png",
+        "timestamp": 1548439760956,
+        "duration": 9295
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-08-46",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 3332,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00a10086-00c5-006c-000a-005600bb00a2.png",
+        "timestamp": 1548439771056,
+        "duration": 3591
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-13-08-46",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 3332,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: No element found using locator: By(css selector, #newManifestModal > new-manifest > div.action-buttons > div > div > div:nth-child(3) > button > span)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(css selector, #newManifestModal > new-manifest > div.action-buttons > div > div > div:nth-child(3) > button > span)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:90:123)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Delete Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:80:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00770059-0017-00a4-00bb-003b0047007f.png",
+        "timestamp": 1548439775446,
+        "duration": 7930
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-16-48",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 13780,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548440212328,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548440213863,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548440213865,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00490011-00b8-00f6-006c-0051005000cd.png",
+        "timestamp": 1548440208395,
+        "duration": 29852
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-13-16-48",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 13780,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: No element found using locator: By(css selector, #collapseStop0 > div > div > div > div > span)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(css selector, #collapseStop0 > div > div > div > div > span)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:58:75)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest - Add SO\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:49:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://webservicedev.winwholesale.com:8084/manifest-service-release/orders/406087-01 - Failed to load resource: the server responded with a status of 501 ()",
+                "timestamp": 1548440242423,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00f30028-004c-003c-004e-004100e600f1.png",
+        "timestamp": 1548440239091,
+        "duration": 3695
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-13-16-48",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 13780,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: No element found using locator: By(css selector, #collapseStop1 > div > div > div > div > span)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(css selector, #collapseStop1 > div > div > div > div > span)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:78:75)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest - Add PO\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:61:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00d300fc-00b0-00ed-000f-006600f600b7.png",
+        "timestamp": 1548440243570,
+        "duration": 9204
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-16-48",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 13780,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: unknown error: Element <span>...</span> is not clickable at point (1446, 917). Other element would receive the click: <div class=\"action-buttons\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)"
+        ],
+        "trace": [
+            "WebDriverError: unknown error: Element <span>...</span> is not clickable at point (1446, 917). Other element would receive the click: <div class=\"action-buttons\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.click()\n    at Driver.schedule (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElement.schedule_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2010:25)\n    at WebElement.click (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2092:17)\n    at actionFn (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:89:44)\n    at Array.map (<anonymous>)\n    at actionResults.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:461:65)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:82:116)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:81:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00a9000f-00dc-00d3-0029-002200dd00ec.png",
+        "timestamp": 1548440253522,
+        "duration": 445
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-13-16-48",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 13780,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: unknown error: Element <span class=\"ui-sortable-column-icon fa fa-fw fa-sort\" ng-reflect-klass=\"ui-sortable-column-icon fa fa-\" ng-reflect-ng-class=\"[object Object]\"></span> is not clickable at point (256, 365). Other element would receive the click: <div class=\"modal-content\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)"
+        ],
+        "trace": [
+            "WebDriverError: unknown error: Element <span class=\"ui-sortable-column-icon fa fa-fw fa-sort\" ng-reflect-klass=\"ui-sortable-column-icon fa fa-\" ng-reflect-ng-class=\"[object Object]\"></span> is not clickable at point (256, 365). Other element would receive the click: <div class=\"modal-content\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.click()\n    at Driver.schedule (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElement.schedule_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2010:25)\n    at WebElement.click (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2092:17)\n    at actionFn (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:89:44)\n    at Array.map (<anonymous>)\n    at actionResults.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:461:65)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:88:236)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Delete Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:87:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:171:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00cd005d-0003-00b9-009e-007c00930049.png",
+        "timestamp": 1548440254833,
+        "duration": 542
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-19-28",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 6620,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548440372071,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548440373567,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548440373569,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00c40028-0005-00b2-0097-00a4000b0042.png",
+        "timestamp": 1548440368756,
+        "duration": 29118
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-13-19-28",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 6620,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00bf0079-001d-0017-0005-00bf000400a9.png",
+        "timestamp": 1548440398713,
+        "duration": 3810
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-13-19-28",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 6620,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "007300d7-00e3-0047-005c-0056006200a0.png",
+        "timestamp": 1548440403330,
+        "duration": 9387
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-19-28",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 6620,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00bc00db-00ad-0010-006b-00270021003b.png",
+        "timestamp": 1548440413492,
+        "duration": 3531
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-13-19-28",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 6620,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00b400c3-00bc-0056-00af-002600b400e7.png",
+        "timestamp": 1548440417803,
+        "duration": 11089
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-48-03",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 14984,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548442086831,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548442088218,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548442088220,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "0010008e-0012-0051-005c-009400a2001b.png",
+        "timestamp": 1548442083329,
+        "duration": 28708
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-13-48-03",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 14984,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Expected 'Order 406087-01 successfully added to manifest' to equal 'Order 406087-01 successfully added to manifest.'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:59:135)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "0058001c-0008-0054-005a-00b5001900a5.png",
+        "timestamp": 1548442112909,
+        "duration": 3017
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-13-48-03",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 14984,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Expected 'Order 059127 successfully added to manifest' to equal 'Order 059127 successfully added to manifest.'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:79:135)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00440068-0095-0058-0055-00fb0002004a.png",
+        "timestamp": 1548442116789,
+        "duration": 9293
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-48-03",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 14984,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00680005-007e-001f-00c7-00f1001d0076.png",
+        "timestamp": 1548442126915,
+        "duration": 3572
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-13-48-03",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 14984,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: element(...).getAttribue is not a function"
+        ],
+        "trace": [
+            "TypeError: element(...).getAttribue is not a function\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:88:101)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run it(\"Delete Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:87:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00020010-0044-0036-004d-00c6007100f8.png",
+        "timestamp": 1548442131245,
+        "duration": 363
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-50-00",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 19156,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548442203401,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548442204788,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548442204789,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00bf0046-0066-006f-0059-001d00660024.png",
+        "timestamp": 1548442200699,
+        "duration": 28090
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-13-50-00",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 19156,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: No element found using locator: By(css selector, #collapseStop0 > div > div > div > div > span)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(css selector, #collapseStop0 > div > div > div > div > span)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:58:75)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest - Add SO\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:49:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://webservicedev.winwholesale.com:8084/manifest-service-release/orders/406087-01 - Failed to load resource: the server responded with a status of 501 ()",
+                "timestamp": 1548442232602,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00ce006e-004d-00e2-00f4-00fe00f70010.png",
+        "timestamp": 1548442229756,
+        "duration": 3236
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-13-50-00",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 19156,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: No element found using locator: By(css selector, #collapseStop1 > div > div > div > div > span)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(css selector, #collapseStop1 > div > div > div > div > span)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:78:75)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest - Add PO\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:61:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "007a0054-009c-00e5-0079-002000fc00dc.png",
+        "timestamp": 1548442233874,
+        "duration": 9245
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-50-00",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 19156,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: unknown error: Element <span>...</span> is not clickable at point (1446, 917). Other element would receive the click: <div class=\"action-buttons\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)"
+        ],
+        "trace": [
+            "WebDriverError: unknown error: Element <span>...</span> is not clickable at point (1446, 917). Other element would receive the click: <div class=\"action-buttons\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.click()\n    at Driver.schedule (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElement.schedule_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2010:25)\n    at WebElement.click (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2092:17)\n    at actionFn (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:89:44)\n    at Array.map (<anonymous>)\n    at actionResults.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:461:65)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:82:116)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:81:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "009d0054-0098-008c-00f5-002900cc00d1.png",
+        "timestamp": 1548442243917,
+        "duration": 520
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-13-50-00",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 19156,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: element(...).getAttribue is not a function"
+        ],
+        "trace": [
+            "TypeError: element(...).getAttribue is not a function\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:88:101)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run it(\"Delete Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:87:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00de0081-00d2-0038-00c4-0063005500ce.png",
+        "timestamp": 1548442245307,
+        "duration": 357
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-54-36",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 10328,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548442480171,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548442481562,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548442481563,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00ce0077-0066-00c1-003c-00d800c60095.png",
+        "timestamp": 1548442476585,
+        "duration": 29470
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-13-54-36",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 10328,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "003d00f0-00bc-007c-00f7-0084001f0095.png",
+        "timestamp": 1548442506940,
+        "duration": 3007
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-13-54-36",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 10328,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Expected 'Order 059127 successfully added to manifest' to equal 'Order 059127 successfully added to manifest.'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:79:135)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00390019-00f5-0088-00fe-0061000e009d.png",
+        "timestamp": 1548442510849,
+        "duration": 9744
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-54-36",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 10328,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "005c00c1-00a5-00c5-00ac-005a00d7007e.png",
+        "timestamp": 1548442521681,
+        "duration": 3752
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-13-54-36",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 10328,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: element(...).getAttribue is not a function"
+        ],
+        "trace": [
+            "TypeError: element(...).getAttribue is not a function\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:88:101)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run it(\"Delete Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:87:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00d10004-00de-003f-0007-00f200f30028.png",
+        "timestamp": 1548442526234,
+        "duration": 402
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-56-39",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 7688,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548442602819,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548442604007,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548442604008,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00af00cc-0077-00bf-0006-001400970005.png",
+        "timestamp": 1548442599763,
+        "duration": 28306
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-13-56-39",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 7688,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: No element found using locator: By(css selector, #collapseStop0 > div > div > div > div > span)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(css selector, #collapseStop0 > div > div > div > div > span)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:58:75)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest - Add SO\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:49:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://webservicedev.winwholesale.com:8084/manifest-service-release/orders/406087-01 - Failed to load resource: the server responded with a status of 501 ()",
+                "timestamp": 1548442631466,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "0054009a-00fe-0038-00eb-00650020007d.png",
+        "timestamp": 1548442628932,
+        "duration": 2929
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-13-56-39",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 7688,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: No element found using locator: By(css selector, #collapseStop1 > div > div > div > div > span)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(css selector, #collapseStop1 > div > div > div > div > span)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:78:75)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest - Add PO\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:61:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "004800f6-00d2-00ba-00a1-00d100650073.png",
+        "timestamp": 1548442632649,
+        "duration": 24417
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-13-56-39",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 7688,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: unknown error: Element <span>...</span> is not clickable at point (1446, 917). Other element would receive the click: <div class=\"action-buttons\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)"
+        ],
+        "trace": [
+            "WebDriverError: unknown error: Element <span>...</span> is not clickable at point (1446, 917). Other element would receive the click: <div class=\"action-buttons\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.click()\n    at Driver.schedule (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElement.schedule_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2010:25)\n    at WebElement.click (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2092:17)\n    at actionFn (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:89:44)\n    at Array.map (<anonymous>)\n    at actionResults.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:461:65)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:82:116)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:81:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "004e008f-00f1-00bd-0084-008500ab0012.png",
+        "timestamp": 1548442657828,
+        "duration": 465
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-13-56-39",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 7688,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: element(...).getAttribue is not a function"
+        ],
+        "trace": [
+            "TypeError: element(...).getAttribue is not a function\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:88:101)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run it(\"Delete Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:87:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00d70028-00a2-003d-0001-005e00f300ac.png",
+        "timestamp": 1548442659127,
+        "duration": 396
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-01-20",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 19640,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548442884197,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548442885408,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548442885409,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00fa0047-0012-00f1-0010-005d0016004e.png",
+        "timestamp": 1548442880542,
+        "duration": 28874
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-14-01-20",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 19640,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0096007b-0028-007c-0049-003a00d600f3.png",
+        "timestamp": 1548442910295,
+        "duration": 3025
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-14-01-20",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 19640,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "007400d1-00e2-0037-0093-002400c700db.png",
+        "timestamp": 1548442914136,
+        "duration": 9325
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-01-20",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 19640,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00a60027-00cb-002f-00a3-001000c80058.png",
+        "timestamp": 1548442924273,
+        "duration": 3526
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-14-01-20",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 19640,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: element(...).getText(...).toContain is not a function"
+        ],
+        "trace": [
+            "TypeError: element(...).getText(...).toContain is not a function\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:88:118)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run it(\"Delete Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:87:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00470074-00cf-0063-0063-006700a7001e.png",
+        "timestamp": 1548442928571,
+        "duration": 372
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-02-55",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 8208,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548442978824,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548442979971,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548442979972,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "002d0074-00a1-0088-004d-0014008c003c.png",
+        "timestamp": 1548442975580,
+        "duration": 28426
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-14-02-55",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 8208,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: No element found using locator: By(css selector, #collapseStop0 > div > div > div > div > span)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(css selector, #collapseStop0 > div > div > div > div > span)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:58:75)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest - Add SO\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:49:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://webservicedev.winwholesale.com:8084/manifest-service-release/orders/406087-01 - Failed to load resource: the server responded with a status of 501 ()",
+                "timestamp": 1548443007529,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00f7007e-0004-00c3-00b5-002000a5000e.png",
+        "timestamp": 1548443004879,
+        "duration": 3020
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-14-02-55",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 8208,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: No element found using locator: By(css selector, #collapseStop1 > div > div > div > div > span)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(css selector, #collapseStop1 > div > div > div > div > span)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:78:75)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest - Add PO\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:61:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "005d005b-008d-008b-004a-005500fc000b.png",
+        "timestamp": 1548443008733,
+        "duration": 9189
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-02-55",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 8208,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: unknown error: Element <span>...</span> is not clickable at point (1446, 917). Other element would receive the click: <div class=\"action-buttons\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)"
+        ],
+        "trace": [
+            "WebDriverError: unknown error: Element <span>...</span> is not clickable at point (1446, 917). Other element would receive the click: <div class=\"action-buttons\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.click()\n    at Driver.schedule (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElement.schedule_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2010:25)\n    at WebElement.click (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2092:17)\n    at actionFn (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:89:44)\n    at Array.map (<anonymous>)\n    at actionResults.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:461:65)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:82:116)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:81:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "006b0031-0034-004e-00f5-0068008c004d.png",
+        "timestamp": 1548443018751,
+        "duration": 452
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-14-02-55",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 8208,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: element(...).toContain is not a function"
+        ],
+        "trace": [
+            "TypeError: element(...).toContain is not a function\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:88:101)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run it(\"Delete Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:87:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "008600fd-0032-00d4-007e-00b1000e00b8.png",
+        "timestamp": 1548443020033,
+        "duration": 366
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-04-23",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 17696,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548443067452,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548443068631,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548443068632,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00530057-0070-006b-003c-00da005900f5.png",
+        "timestamp": 1548443063913,
+        "duration": 34703
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-14-04-23",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 17696,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0082005c-00ff-00a6-0033-003e00ae00e1.png",
+        "timestamp": 1548443099572,
+        "duration": 2982
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-14-04-23",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 17696,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0045003b-0039-008b-002c-006c00d0004b.png",
+        "timestamp": 1548443103355,
+        "duration": 9262
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-04-23",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 17696,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00a1009f-00f4-0033-0079-00d500d60050.png",
+        "timestamp": 1548443113414,
+        "duration": 3541
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-14-04-23",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 17696,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: element(...).toContain is not a function"
+        ],
+        "trace": [
+            "TypeError: element(...).toContain is not a function\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:88:101)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run it(\"Delete Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:87:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "0062002d-00a5-0078-00e1-0052006a002f.png",
+        "timestamp": 1548443117713,
+        "duration": 339
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-07-40",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 4700,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548443264618,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548443266324,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548443266325,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00d8006a-008e-00c6-00f5-0038005900c7.png",
+        "timestamp": 1548443260600,
+        "duration": 29643
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-14-07-40",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 4700,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: No element found using locator: By(css selector, #collapseStop0 > div > div > div > div > span)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(css selector, #collapseStop0 > div > div > div > div > span)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:58:75)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest - Add SO\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:49:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "http://webservicedev.winwholesale.com:8084/manifest-service-release/orders/406087-01 - Failed to load resource: the server responded with a status of 501 ()",
+                "timestamp": 1548443293712,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00d80038-004a-0064-0059-002d00b000e7.png",
+        "timestamp": 1548443291108,
+        "duration": 2985
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-14-07-40",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 4700,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: No element found using locator: By(css selector, #collapseStop1 > div > div > div > div > span)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(css selector, #collapseStop1 > div > div > div > div > span)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as getText] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:78:75)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest - Add PO\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:61:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00180006-003a-00fa-0094-00670023002a.png",
+        "timestamp": 1548443294933,
+        "duration": 9285
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-07-40",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 4700,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Failed: unknown error: Element <span>...</span> is not clickable at point (1446, 917). Other element would receive the click: <div class=\"action-buttons\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)"
+        ],
+        "trace": [
+            "WebDriverError: unknown error: Element <span>...</span> is not clickable at point (1446, 917). Other element would receive the click: <div class=\"action-buttons\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.click()\n    at Driver.schedule (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElement.schedule_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2010:25)\n    at WebElement.click (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2092:17)\n    at actionFn (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:89:44)\n    at Array.map (<anonymous>)\n    at actionResults.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:461:65)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:82:116)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Create Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:81:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "0055007b-001b-0095-00de-009800ed00b9.png",
+        "timestamp": 1548443305139,
+        "duration": 540
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-14-07-40",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 4700,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": [
+            "Expected 'The order number entered already exists on another manifest.' to contain 'successfully created.'.",
+            "Failed: unknown error: Element <span class=\"ui-sortable-column-icon fa fa-fw fa-sort\" ng-reflect-klass=\"ui-sortable-column-icon fa fa-\" ng-reflect-ng-class=\"[object Object]\"></span> is not clickable at point (256, 365). Other element would receive the click: <div class=\"modal-content\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)"
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:88:112)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7",
+            "WebDriverError: unknown error: Element <span class=\"ui-sortable-column-icon fa fa-fw fa-sort\" ng-reflect-klass=\"ui-sortable-column-icon fa fa-\" ng-reflect-ng-class=\"[object Object]\"></span> is not clickable at point (256, 365). Other element would receive the click: <div class=\"modal-content\">...</div>\n  (Session info: chrome=71.0.3578.98)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.click()\n    at Driver.schedule (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElement.schedule_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2010:25)\n    at WebElement.click (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2092:17)\n    at actionFn (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:89:44)\n    at Array.map (<anonymous>)\n    at actionResults.getWebElements.then (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:461:65)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:89:236)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"Delete Manifest\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:87:2)\n    at addSpecsToSuite (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\gebirecki\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at eval (eval at <anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1), <anonymous>:4:1)\n    at Object.<anonymous> (C:\\Users\\gebirecki\\protractorworkspace\\ProtractorAutomation\\Fork.js:174:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00a20088-0084-000b-00c3-008a009f0016.png",
+        "timestamp": 1548443306475,
+        "duration": 461
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-08-54",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 15060,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548443336973,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548443338163,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548443338164,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00fb002d-0062-003a-007c-009500080051.png",
+        "timestamp": 1548443334028,
+        "duration": 27888
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-14-08-54",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 15060,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "003800d2-003f-0084-00f8-009e00a2006b.png",
+        "timestamp": 1548443362828,
+        "duration": 2974
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-14-08-54",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 15060,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0048006e-006c-001d-0066-00c800b700a4.png",
+        "timestamp": 1548443366603,
+        "duration": 9272
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-08-54",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 15060,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00b90027-0041-007a-0088-00b3007f00f3.png",
+        "timestamp": 1548443376694,
+        "duration": 3523
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-14-08-54",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 15060,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00f200e6-002c-00b9-00be-006300dc0066.png",
+        "timestamp": 1548443380975,
+        "duration": 11135
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-12-07",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 15092,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548443532202,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548443533710,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548443533712,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00d500ba-00a6-00eb-00ee-00d5009700f6.png",
+        "timestamp": 1548443527850,
+        "duration": 30076
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-14-12-07",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 15092,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "007200b7-00ac-00ea-00f6-00880028000d.png",
+        "timestamp": 1548443558775,
+        "duration": 2990
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-14-12-07",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 15092,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0055006c-0012-00fd-004f-00f300d900ab.png",
+        "timestamp": 1548443562615,
+        "duration": 9266
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-12-07",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 15092,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00b2001d-008b-005a-00f5-00ed00af0081.png",
+        "timestamp": 1548443572715,
+        "duration": 3686
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-14-12-07",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 15092,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "007100ab-0011-0070-00e5-0064009600d8.png",
+        "timestamp": 1548443577190,
+        "duration": 11183
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-14-48",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 13260,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js 180:351 \"Template parse warnings:\\nThe \\u003Ctemplate> element is deprecated. Use \\u003Cng-template> instead (\\\"er.orderNumber}}\\u003C/span>\\n                                                                            [WARNING ->]\\u003Ctemplate #shippingInfoTemplate>\\n                                                                    \\\"): ng:///ManifestModule/NewManifestComponent.html@235:76\"",
+                "timestamp": 1548443692362,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR\" Error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.\n    at viewDebugError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:546)\n    at expressionChangedAfterItHasBeenCheckedError (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:376)\n    at checkBindingNoChanges (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:78:1728)\n    at checkNoChangesNodeInline (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6942)\n    at checkNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:6768)\n    at debugCheckNoChangesNode (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:16595)\n    at debugCheckDirectivesFn (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15175)\n    at Object.eval [as updateDirectives] (ng:///AppModule/AppComponent.ngfactory.js:121:5)\n    at Object.debugUpdateDirectives [as updateDirectives] (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:15447)\n    at checkNoChangesView (http://webservicedev.winwholesale.com/shipping-manifest-manager-release/js/vendor.46137df9d05b764ac17b.js:127:4771)",
+                "timestamp": 1548443693875,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "ng:///AppModule/AppComponent.ngfactory.js 69:73 \"ERROR CONTEXT\" DebugContext_",
+                "timestamp": 1548443693877,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "004100e4-0043-0031-0028-0039003900f3.png",
+        "timestamp": 1548443688868,
+        "duration": 29250
+    },
+    {
+        "description": "Create Manifest - Add SO|Shipping Manifest Automation Test-20190125-14-14-48",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 13260,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00d400e8-0099-00b1-0002-001700880057.png",
+        "timestamp": 1548443718920,
+        "duration": 3138
+    },
+    {
+        "description": "Create Manifest - Add PO|Shipping Manifest Automation Test-20190125-14-14-48",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 13260,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0082009e-000e-00b9-0003-00ee009200eb.png",
+        "timestamp": 1548443722854,
+        "duration": 9397
+    },
+    {
+        "description": "Create Manifest|Shipping Manifest Automation Test-20190125-14-14-48",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 13260,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0076001a-007f-007b-0068-009900840046.png",
+        "timestamp": 1548443733161,
+        "duration": 3602
+    },
+    {
+        "description": "Delete Manifest|Shipping Manifest Automation Test-20190125-14-14-48",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "instanceId": 13260,
+        "browser": {
+            "name": "chrome",
+            "version": "71.0.3578.98"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0009009d-009f-00a0-007d-008e00d80064.png",
+        "timestamp": 1548443737611,
+        "duration": 11568
     }
 ];
 

@@ -1,0 +1,234 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548442599760' stop='1548442659524'>
+    <name>Shipping Manifest Automation Test-20190125-13-56-39</name>
+    <title>Shipping Manifest Automation Test-20190125-13-56-39</title>
+    <test-cases>
+        <test-case start='1548442599762' status='passed' stop='1548442628068'>
+            <name>Create Manifest</name>
+            <title>Create Manifest</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b8664d6e-a43a-48eb-8a2c-9f5d3673c4d9-attachment.png' type='image/png' size='51804'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548442628070' status='failed' stop='1548442631860'>
+            <name>Create Manifest - Add SO</name>
+            <title>Create Manifest - Add SO</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9d62a87b-c51d-4fb2-a80e-25f93364fddb-attachment.png' type='image/png' size='57936'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: By(css selector, #collapseStop0 > div > div > div > div > span)</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, #collapseStop0 > div > div > div > div > span)
+                    at elementArrayFinder.getWebElements.then (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+                    at ManagedPromise.invokeCallback_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as getText] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at UserContext.eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1), &lt;anonymous>:58:75)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                From: Task: Run it("Create Manifest - Add SO") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+                    at ControlFlow.emit (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+                    at ControlFlow.shutdown_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+                    at shutdownTask_.MicroTask (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+                From asynchronous test: 
+                Error
+                    at Suite.eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1), &lt;anonymous>:49:2)
+                    at addSpecsToSuite (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1), &lt;anonymous>:4:1)
+                    at Object.&lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Module.load (internal/modules/cjs/loader.js:599:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548442631861' status='failed' stop='1548442657065'>
+            <name>Create Manifest - Add PO</name>
+            <title>Create Manifest - Add PO</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='16c3d9c9-a4ec-4568-a50b-219817b72368-attachment.png' type='image/png' size='75095'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: By(css selector, #collapseStop1 > div > div > div > div > span)</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, #collapseStop1 > div > div > div > div > span)
+                    at elementArrayFinder.getWebElements.then (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+                    at ManagedPromise.invokeCallback_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as getText] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at UserContext.eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1), &lt;anonymous>:78:75)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                From: Task: Run it("Create Manifest - Add PO") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+                    at ControlFlow.emit (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+                    at ControlFlow.shutdown_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+                    at shutdownTask_.MicroTask (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+                From asynchronous test: 
+                Error
+                    at Suite.eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1), &lt;anonymous>:61:2)
+                    at addSpecsToSuite (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1), &lt;anonymous>:4:1)
+                    at Object.&lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Module.load (internal/modules/cjs/loader.js:599:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548442657066' status='failed' stop='1548442658293'>
+            <name>Create Manifest</name>
+            <title>Create Manifest</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8af84ba6-047c-4cad-8dad-60f13732b6ec-attachment.png' type='image/png' size='75095'/>
+            </attachments>
+            <failure>
+                <message>Failed: unknown error: Element &lt;span>...&lt;/span> is not clickable at point (1446, 917). Other element would receive the click: &lt;div class="action-buttons">...&lt;/div>
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)</message>
+                <stack-trace>WebDriverError: unknown error: Element &lt;span>...&lt;/span> is not clickable at point (1446, 917). Other element would receive the click: &lt;div class="action-buttons">...&lt;/div>
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.15063 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at doSend.then.response (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: WebElement.click()
+                    at Driver.schedule (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at WebElement.schedule_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:2010:25)
+                    at WebElement.click (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:2092:17)
+                    at actionFn (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:89:44)
+                    at Array.map (&lt;anonymous>)
+                    at actionResults.getWebElements.then (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:461:65)
+                    at ManagedPromise.invokeCallback_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as click] (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at UserContext.eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1), &lt;anonymous>:82:116)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                From: Task: Run it("Create Manifest") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+                    at ControlFlow.emit (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+                    at ControlFlow.shutdown_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+                    at shutdownTask_.MicroTask (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+                From asynchronous test: 
+                Error
+                    at Suite.eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1), &lt;anonymous>:81:2)
+                    at addSpecsToSuite (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1), &lt;anonymous>:4:1)
+                    at Object.&lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Module.load (internal/modules/cjs/loader.js:599:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548442658293' status='failed' stop='1548442659522'>
+            <name>Delete Manifest</name>
+            <title>Delete Manifest</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0711c673-3972-4b0a-94d5-15fdfcf69235-attachment.png' type='image/png' size='75160'/>
+            </attachments>
+            <failure>
+                <message>Failed: element(...).getAttribue is not a function</message>
+                <stack-trace>TypeError: element(...).getAttribue is not a function
+                    at UserContext.eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1), &lt;anonymous>:88:101)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run it("Delete Manifest") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+                    at C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+                    at ControlFlow.emit (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+                    at ControlFlow.shutdown_ (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+                    at shutdownTask_.MicroTask (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+                From asynchronous test: 
+                Error
+                    at Suite.eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1), &lt;anonymous>:87:2)
+                    at addSpecsToSuite (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\gebirecki\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at eval (eval at &lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1), &lt;anonymous>:4:1)
+                    at Object.&lt;anonymous> (C:\Users\gebirecki\protractorworkspace\ProtractorAutomation\Fork.js:174:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Module.load (internal/modules/cjs/loader.js:599:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
